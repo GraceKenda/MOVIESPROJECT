@@ -1,0 +1,35 @@
+{% extends 'movapp/base.html' %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <h3 class="text-center text-primary">
+            BURNITY
+        </h3>
+        {% if movies %}
+            {% for movie in movies %}
+        <div class="col-sm-3">
+            <div class="thumbnail">
+                <a href="">
+                    <video width="250" height="250" autoplay>
+                        <source src="{{ movie.video.url }}">
+                    </video>
+                </a>
+                <div class="caption">
+                    <h5>{{ movie.title  }}</h5>
+                    <form method="post" action="">
+                        {% csrf_token %}
+                        <input type="hidden" name="movie.id" value="{{ movie.id }}">
+                        <a href="">
+                         <span class="glyphicon glyphicon-trash"></span>
+                        </a>
+                    </form>
+                </div>
+            </div>
+         </div>
+           {% endfor %}
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+

@@ -25,13 +25,22 @@ def create_movie(request):
         movie.cover = request.FILES['cover']
         movie.user = request.user
         movie.save()
+        movie = Movie.objects.all()
         context = {'movie':movie,
                    'message':'Movie Created!'
                    }
         return render(request, 'movapp/index.html',context)
     form = MovieForm()
+
     return render(request, 'movapp/create_movie.html',
                   {'form': form})
+
+def delete_movie(request, movie_id):
+    movie = Movie.objects.get(pk=movie_id)
+    movie.delete()
+    movie = Movie.objects.all()
+    return render(request, 'movapp/index.html', {'movie':movie})
+
 
 
 def login_user(request):

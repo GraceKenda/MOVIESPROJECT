@@ -1,5 +1,4 @@
 {% extends 'movapp/base.html' %}
-
 {% block content %}
 <div class="container-fluid">
     <div class="row">
@@ -11,7 +10,7 @@
         <div class="col-sm-3">
             <div class="thumbnail">
                 <a href="">
-                    <video width="250" height="250" autoplay>
+                    <video width="200" height="250" controls>
                         <source src="{{ movie.video.url }}">
                     </video>
                 </a>
@@ -20,7 +19,7 @@
                     <form method="post" action="">
                         {% csrf_token %}
                         <input type="hidden" name="movie.id" value="{{ movie.id }}">
-                        <a href="">
+                        <a href="{% url 'movapp:delete_movie' movie.id %}">
                          <span class="glyphicon glyphicon-trash"></span>
                         </a>
                     </form>
@@ -32,4 +31,5 @@
     </div>
 </div>
 {% endblock %}
+
 

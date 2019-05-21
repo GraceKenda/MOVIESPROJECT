@@ -1,6 +1,9 @@
+from unittest.test.testmock.testpatch import Foo
+
 from django.db import models
 from django.contrib.auth.models import User
 from django.shortcuts import reverse
+from django.contrib.contenttypes.fields import GenericRelation
 
 
 # Create your models here.

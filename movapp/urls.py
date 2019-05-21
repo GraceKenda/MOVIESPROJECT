@@ -9,6 +9,7 @@ urlpatterns = [
     path('login/', views.login_user, name='login_user'),
     path('logout/', views.logout_user, name='logout_user'),
     path('register/', views.register, name='signup'),
+    path('(?P<movie_id>[0-9]+)/delete_movie/', views.delete_movie, name='delete_movie'),
 
 
 

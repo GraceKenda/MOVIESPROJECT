@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="620e12c2-1b06-48fa-921a-df5c75f4562c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MOVIESPROJECT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MOVIESPROJECT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MOVIE/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MOVIE/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movapp/templates/movapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/movapp/templates/movapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movapp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +28,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -81,6 +72,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,34 +80,10 @@
               <item name="MOVIESPROJECT" type="b2602c69:ProjectViewProjectNode" />
               <item name="MOVIESPROJECT" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MOVIESPROJECT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MOVIESPROJECT" type="462c0819:PsiDirectoryNode" />
-              <item name="movapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MOVIESPROJECT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MOVIESPROJECT" type="462c0819:PsiDirectoryNode" />
-              <item name="movapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MOVIESPROJECT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MOVIESPROJECT" type="462c0819:PsiDirectoryNode" />
-              <item name="movapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="movapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MOVIESPROJECT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MOVIESPROJECT" type="462c0819:PsiDirectoryNode" />
-              <item name="MOVIE" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,16 +161,17 @@
       <workItem from="1558089341028" duration="369000" />
       <workItem from="1558091439095" duration="2904000" />
       <workItem from="1558424034775" duration="638000" />
+      <workItem from="1558420949305" duration="1791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50656000" />
+    <option name="totallyTimeSpent" value="52447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.108169444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19062027" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -216,7 +185,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.95090014" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29787233" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
